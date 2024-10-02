@@ -1,0 +1,28 @@
+.user {
+  display: flex;
+  position: absolute; /* Use absolute positioning */
+  top: 5px; /* Positioning the icon at the top */
+  right: 5px; /* Positioning the icon to the right */
+}
+
+.user_icon {
+  height: 25px; /* Reduced height for smaller size */
+  width: 25px; /* Reduced width for smaller size */
+  background-color: blue;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  font-size: 0.7rem; /* Reduced font size for smaller icon */
+}
+
+.dot {
+  position: absolute; /* Use absolute positioning */
+  bottom: 0px; /* Position the dot slightly below the icon */
+  right: -1px; /* Adjust this value to position dot */
+  color: grey;
+  font-size: 0.5rem; /* Adjusted font size for the dot */
+}
